@@ -1,8 +1,8 @@
 ---
-title: Landing
+title: Visualizations & Explanations
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+description: 'In this part, we will display our visualizations in detail.'
+image: assets/images/Time_Series_of_AQI_Trend.png
 nav-menu: true
 ---
 
@@ -12,10 +12,7 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<header class="major">
-			<h2>Sed amet aliquam</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>There are 6 visualizations we built.</p>
 	</div>
 </section>
 
@@ -23,65 +20,84 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/Average_Max_AQI_per_State.png %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Max_AQI</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>We calculate the average maximum AQI per state and visualize it using a bar chart, then we fit the bar chart in our customized AQI sepcturm with reference to the most commonly used AQI sepcturm.</p>
 			</div>
 		</div>
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/Time_Series_of_AQI_Trend.png %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>AQI_Time_Trend</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>We plot the trend of AQI over the years for a selected state using a line plot with a trend line.</p>
 			</div>
 		</div>
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/Heatmap_Average_Max_AQI_per_State.png %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Sed nunc ligula</h3>
+					<h3>Average_Max_AQI_Heatmap</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>We then using a heatmap to illustrate the Average Max AQI among States.</p>
 			</div>
 		</div>
 	</section>
-</section>
-
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="{% link assets/images/Average_Good_Days_per_State.png %}" alt="" data-position="25% 25%" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Average_Good_Days</h3>
+				</header>
+				<p>We also calculate and visualize the average number of good air quality days per state with a bar chart, which is also interactive and allows users to change the year from the dropdown.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="{% link assets/images/Average_Unhealthy_Days_per_State.png %}" alt="" data-position="25% 25%" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Average_Unhealthy_Days</h3>
+				</header>
+				<p>We calculate and visualize the average number of bad air quality days per state with a bar chart and a year selector.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a href="generic.html" class="image">
+			<img src="{% link assets/images/Air_Quality_Map.png %}" alt="" data-position="25% 25%" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Air_Quality_Map</h3>
+				</header>
+				<p>We created an interactive plot that updates based on the year selected from a dropdown, showing different kinds of day counts.</p>
+			</div>
+		</div>
+	</section>
+	
+	
 </section>
 
 </div>
