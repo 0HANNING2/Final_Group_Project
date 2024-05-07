@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dataset Introduction
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+description: Brief Intro to our dataset & URL to access
+image: assets/images/Data.jpg
 nav-menu: true
 ---
 Dataset URL:
