@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Outline
 image: assets/images/pic01.jpg
 nav-menu: true
 ---
@@ -16,29 +16,34 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Purpose and Outline</h2>
+<p>The purpose of this assignment is to create a 'Viz for Experts' with an interactive dashboard interface for exploring your data.</p>
+
+<p>For this submission option, you will submit your work through this Workspace.</p>
+
+<p><strong>Please see Homework Prompt in PrairieLearn interface for more details on the requirements for this assignment.</strong></p>
+
+<p>A rough outline of elements of code and write-up is shown below:</p>
 <div class="row">
 	<div class="6u 12u$(small)">
-		<h3>Sem turpis amet semper</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3><strong>1. Data Preparation</strong></h3>
+		<p>1.1. Import necessary libraries.</p>
+		<p>1.2. Read the dataset and perform any initial data filtering or cleaning.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
-		<h3>Magna odio tempus commodo</h3>
-		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+		<h3><strong>2. Data Visualization</strong></h3>
+		<p>Six visualizations were built.</p>
+		<p>2.1. max_aqi (2): Calculate the average maximum AQI per state and visualize it using a bar chart and a heatmap.</p>
+  		<p>2.2. good_days (1): Calculate and visualize the average number of good air quality days per state with a bar chart.</p>
+    		<p>2.3. unhealthy_days (1): Calculate and visualize the average number of bad air quality days per state with a bar chart and a year selector.</p>
+      		<p>2.4. air_quality_map (1): Create an interactive plot that updates based on the year selected from a dropdown, showing different kinds of day counts.</p>
+		<p>2.5. aqi_trend (1): Plot the trend of AQI over the years for a selected state using a line plot with a trend line.</p>
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
-		<h3>Interdum sapien gravida</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-	</div>
-	<div class="4u 12u$(medium)">
-		<h3>Faucibus consequat lorem</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-	</div>
-	<div class="4u$ 12u$(medium)">
-		<h3>Accumsan montes viverra</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3><strong>3. Building Dashboard and refresh button</strong></h3>
+		<p>3.1. Organize the individual visualizations into a tabbed layout using ipywidgets.tab, with each tab corresponding to a different visualization of the air quality data as shown above.</p>
+		<p>3.2. Build a refresh button to update all visualizations with new data if needed.</p>
 	</div>
 </div>
 
