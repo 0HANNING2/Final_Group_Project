@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Generic
+title: Dataset Introduction
 description: Lorem ipsum dolor est
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
+Dataset URL:
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+https://github.com/YujunZhou2024/IS445.github.io/blob/main/python_notebooks/annual_aqi_by_county_2018-2023.csv
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+Dataset Introduction:
+The dataset, `annual_aqi_by_county_2018-2023.csv`, provides a comprehensive overview of the annual Air Quality Index (AQI) across various counties in the United States from 2018 to 2023. AQI is a metric used to gauge air quality, and it integrates multiple pollutants into a single, easy-to-understand value. The data reveals patterns and trends in air quality across regions over time, offering valuable insights for environmental analysis and policy formulation. By understanding this information, stakeholders can identify pollution sources, assess public health impacts, and develop strategies to improve air quality. 
