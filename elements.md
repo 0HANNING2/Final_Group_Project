@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Outline
-image: assets/images/pic01.jpg
+image: assets/images/Air_Quality_Map.png
 nav-menu: true
 ---
 
