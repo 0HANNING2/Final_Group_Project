@@ -4,7 +4,7 @@ subtitle: by HTML5 UP
 email: youremailaddress@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "/Final_Group_Project" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+repository          : "https://0HANNING2.github.io" 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
