@@ -66,7 +66,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Average_Good_Days</h3>
 				</header>
-				<p>We also calculate and visualize the average number of good air quality days per state with a bar chart, which is also interactive and allows users to change the year from the dropdown.</p>
+				<p>We calculated the average number of good air quality days per state with a bar chart. This is also interactive allowing users to choose between the years from 2018 - 2023. We observed that more recent years have seen a decrease in the number of good air quality days. This can be indicative of a worsening air quality condition. </p>
 			</div>
 		</div>
 	</section>
@@ -79,7 +79,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Average_Unhealthy_Days</h3>
 				</header>
-				<p>We calculate and visualize the average number of bad air quality days per state with a bar chart and a year selector.</p>
+				<p>We calculated the average number of unhealthy air quality days per state using a scatterplot. This is also interactive with a dropdown to choose between the years from 2018 - 2023. We noticed that there is an increase in the number of unhealthy days in most states each year; however, the increasing amount is subtle. </p>
 			</div>
 		</div>
 	</section>
