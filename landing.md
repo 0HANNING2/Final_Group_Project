@@ -27,7 +27,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Max_AQI</h3>
 				</header>
-				<p>We calculate the average maximum AQI per state and visualize it using a bar chart, then we fit the bar chart in our customized AQI sepcturm with reference to the most commonly used AQI sepcturm.</p>
+				<p>We calculate the average maximum AQI per state and visualize it using a bar chart, then we fit the bar chart in our customized AQI secheme with reference to the most commonly used AQI sepcturm. From the chart we can clearly see that Hawaii has the lowest Average AQI, which means it has the greatest air quality overall, and Arkansas has the highest AQI, which means it has the worst air quality overall.</p>
 			</div>
 		</div>
 	</section>
@@ -40,7 +40,7 @@ nav-menu: true
 				<header class="major">
 					<h3>AQI_Time_Trend</h3>
 				</header>
-				<p>We plot the trend of AQI over the years for a selected state using a line plot with a trend line.</p>
+				<p>We created a time series analysis with the interactive feature per state to allow specific states to be analyzed to see if AQIs are improving or declining, it helps clean up the data so viewers are able to focus on the regions they are specifically interested in.</p>
 			</div>
 		</div>
 	</section>
@@ -53,7 +53,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Average_Max_AQI_Heatmap</h3>
 				</header>
-				<p>We then using a heatmap to illustrate the Average Max AQI among States.</p>
+				<p>We chose to use a heatmap to display the Average Max AQI in a format that allows us to be able to compare states amongst each other. This would be beneficial to recognize which year collectively have worse AQIs but also the regions struggling the most </p>
 			</div>
 		</div>
 	</section>
@@ -92,7 +92,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Air_Quality_Map</h3>
 				</header>
-				<p>We created an interactive plot that updates based on the year selected from a dropdown, showing different kinds of day counts.</p>
+				<p>We created an interactive plot that updates based on the year selected from a dropdown, showing different kinds of AQI rankings and how they compare when looking at a map. This helps us see where AQIs follow a trend based on the region, for examine in the east we can see its considerably and consistency higher than say the midwest.</p>
 			</div>
 		</div>
 	</section>
