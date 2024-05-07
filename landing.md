@@ -20,7 +20,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link /Final_Group_Project/assets/images/Average_Max_AQI_per_State.png %}" alt="" data-position="center center" />
+			<img src="{{ '/assets/images/Average_Max_AQI_per_State.png' | relative_url }}" alt="Description" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -33,7 +33,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link /Final_Group_Project/assets/images/Time_Series_of_AQI_Trend.png %}" alt="" data-position="top center" />
+			<img src="{{ '/assets/images/Time_Series_of_AQI_Trend.png' | relative_url }}" alt="Description" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -46,7 +46,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link /Final_Group_Project/assets/images/Heatmap_Average_Max_AQI_per_State.png %}" alt="" data-position="25% 25%" />
+			<img src="{{ '/assets/images/Heatmap_Average_Max_AQI_per_State.png' | relative_url }}" alt="Description" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -59,7 +59,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link /Final_Group_Project/assets/images/Average_Good_Days_per_State.png %}" alt="" data-position="25% 25%" />
+			<img src="{{ '/assets/images/Average_Good_Days_per_State.png' | relative_url }}" alt="Description" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -72,7 +72,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link /Final_Group_Project/assets/images/Average_Unhealthy_Days_per_State.png %}" alt="" data-position="25% 25%" />
+			<img src="{{ '/assets/images/Average_Unhealthy_Days_per_State.png' | relative_url }}" alt="Description" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -85,7 +85,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link /Final_Group_Project/assets/images/Air_Quality_Map.png %}" alt="" data-position="25% 25%" />
+			<img src="{{ '/assets/images/Air_Quality_Map.png' | relative_url }}" alt="Description" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
